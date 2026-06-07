@@ -1,16 +1,85 @@
-# React + Vite
+📈 Stock Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to search for stocks and view real-time market information such as current price, daily high, and daily low using a stock market API.
 
-Currently, two official plugins are available:
+🚀 Features
+Search stocks using stock symbols
+View current stock price
+View daily high and low prices
+Responsive and user-friendly interface
+Real-time data fetched from API
+Component-based React architecture
+🛠️ Tech Stack
+Frontend
+React.js
+JavaScript (ES6+)
+CSS3
+Vite
+API
+Alpha Vantage API
+📂 Project Structure
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── SearchBar.jsx
+│   ├── StockCard.jsx
+│   └── Loader.jsx
+│
+├── services/
+│   └── stockService.js
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+⚙️ Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Clone the repository:
 
-## React Compiler
+git clone <repository-url>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Navigate to the project folder:
 
-## Expanding the ESLint configuration
+cd stock-tracker
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Open:
+
+http://localhost:5173
+📸 Demo
+
+Search a stock symbol such as:
+
+IBM
+
+The application displays:
+
+Current Price
+Daily High
+Daily Low
+🎯 Learning Outcomes
+
+This project helped in learning:
+
+React Components
+Props and State Management
+API Integration using Fetch
+Asynchronous JavaScript
+Project Structuring
+Frontend Development with React
+🔮 Future Improvements
+Stock Price Charts
+Search History
+Watchlist Feature
+Portfolio Tracking
+News Integration
+AI-based Stock Prediction
+User Authentication
